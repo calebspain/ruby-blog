@@ -1,0 +1,7 @@
+<% @users.each do |user| %>
+    <% if @currentUser == user %>
+        <li><%= "The current user is #{user}" %></li>
+    <% else %>
+        <li><%= "This user's name is #{user}" %></li>
+    <% end %>
+<% end %>
