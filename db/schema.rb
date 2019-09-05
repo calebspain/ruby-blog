@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 2019_09_05_025222) do
     t.string "title"
     t.text "description"
     t.integer "likes"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end
