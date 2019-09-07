@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   get 'pages/home', to: 'pages#home'
   get 'article', to:'pages#parComments'
   get 'gallery', to: 'pages#gallery'
